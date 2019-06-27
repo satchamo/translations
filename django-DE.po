@@ -1,0 +1,272 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-26 17:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: testmoz/quizzes/models.py:66
+msgid "Enter your name"
+msgstr "Bitte geben Sie Ihren Namen ein"
+
+#: testmoz/settings.py:128
+msgid "German"
+msgstr "Deutsch"
+
+#: testmoz/settings.py:129
+msgid "English"
+msgstr "Englisch"
+
+#: testmoz/settings.py:130
+msgid "Spanish"
+msgstr "Spanisch"
+
+#: testmoz/settings.py:131
+msgid "Portuguese"
+msgstr "Portugiesisch"
+
+#: testmoz/settings.py:132
+msgid "Hindi"
+msgstr "Nein"
+
+#: testmoz/students/forms.py:22 testmoz/students/forms.py:34
+msgid "This field is required."
+msgstr "Dieses Feld darf nicht leer bleiben."
+
+#: testmoz/students/forms.py:40
+msgid "Invalid passcode."
+msgstr "Ungültiges Passwort."
+
+#: testmoz/students/forms.py:81
+#, python-format
+msgid "%(value)s is not an acceptable identifier."
+msgstr "%(value)s ist keine erlaubte Benutzerkennung."
+
+#: testmoz/students/forms.py:86
+#, python-format
+msgid "%(value)s is not an acceptable email address."
+msgstr "%(value)s ist keine erlaubte E-Mail-Adresse."
+
+#: testmoz/students/forms.py:91
+#, python-format
+msgid "%(value)s is not an acceptable email address or identifier."
+msgstr "%(value)s ist keine erlaubte E-Mail-Adresse oder Benutzerkennung."
+
+#: testmoz/students/forms.py:107
+msgid "You cannot take this test again."
+msgstr "Sie können diesen Test nicht noch einmal machen."
+
+#: testmoz/students/forms.py:148
+#, python-format
+msgid "Start the Test: %(test_name)s"
+msgstr "Starten Sie den Test: %(test_name)s"
+
+#. Translators: Heading on a form to allow students to login
+#: testmoz/templates/login.html:48
+msgid "Student Login"
+msgstr "Anmelden als Schüler"
+
+#. Translators: Heading on a link to the administrative control panel
+#: testmoz/templates/login.html:51 testmoz/templates/login.html.py:54
+#: testmoz/templates/login.html:57
+msgid "Administration"
+msgstr "Administration"
+
+#: testmoz/templates/login.html:64
+msgid "You are now logged out"
+msgstr "Sie sind jetzt ausgeloggt"
+
+#: testmoz/templates/login.html:76
+msgid "Admin Password"
+msgstr "Passwort des Administrators"
+
+#: testmoz/templates/login.html:80 testmoz/templates/login.html.py:89
+msgid "Login"
+msgstr "Anmelden"
+
+#: testmoz/templates/login.html:131
+msgid "Passcode"
+msgstr "Passwort"
+
+#. Translators: Start, as in start a test
+#: testmoz/templates/login.html:136
+msgid "Start"
+msgstr "Starten"
+
+#: testmoz/templates/login.html:144
+msgid "Check your email!"
+msgstr "Überprüfen Sie Ihren Posteingang!"
+
+#: testmoz/templates/login.html:145
+msgid "We sent you a link to access the test."
+msgstr "Wir haben Ihnen einen Link zugesendet, mit dem Sie auf den Test zugreifen können."
+
+#: testmoz/templates/login.html:146
+msgid "Didn't get it? Check your spam folder."
+msgstr "Haben Sie diesen nicht erhalten? Bitte sehen Sie in Ihren Spamordner nach."
+
+#: testmoz/templates/login.html:150
+msgid "The link you clicked is invalid"
+msgstr "Der von Ihnen aufgerufene Link ist ungültig"
+
+#: testmoz/templates/login.html:151
+msgid "Try copying and pasting it into the address bar instead."
+msgstr "Versuchen Sie stattdessen, den Link manuell zu kopieren und in die Adressleiste einzufügen."
+
+#: testmoz/templates/login.html:160
+msgid "You already finished the test!"
+msgstr "Sie haben den Test bereits durchgeführt!"
+
+#: testmoz/templates/login.html:161
+#, python-format
+msgid "You can <a href=\"%(the_url)s\">retake it</a>, if allowed."
+msgstr "Sie können <a href=\"%(the_url)s\">ihn noch einmal machen</a>, sofern Sie dazu berechtigt sind."
+
+#: testmoz/templates/login.html:169
+msgid "You are no longer allowed to take this test."
+msgstr "Sie sind nicht mehr berechtigt, diesen Test durchzuführen."
+
+#: testmoz/templates/login.html:173
+msgid "Your email address is no longer authorized to take this test."
+msgstr "Ihre E-Mail-Adresse ist für diesen Test nicht mehr berechtigt."
+
+#: testmoz/templates/login.html:180
+msgid "Click here to start"
+msgstr "Klicken Sie hier, um zu starten."
+
+#: testmoz/templates/students/login.txt:2
+msgid "Click the following URL to start the test:"
+msgstr "Klicken Sie auf die folgende URL, um den Test zu starten:"
+
+#. Translators: Command to print a webpage
+#: testmoz/templates/students/print.html:58
+msgid "Print"
+msgstr "Drucken"
+
+#. Translators: Points like points scored on a quiz
+#: testmoz/templates/students/print.html:74
+#: testmoz/templates/students/render.html:64
+#: testmoz/templates/students/scoresheet.html:60
+#, python-format
+msgid "%(points)s point"
+msgid_plural "%(points)s points"
+msgstr[0] "%(points)s Punkt"
+msgstr[1] "%(points)s Punkte"
+
+#: testmoz/templates/students/print.html:128
+#: testmoz/templates/students/scoresheet.html:114
+msgid "Explanation:"
+msgstr "Erläuterung:"
+
+#: testmoz/templates/students/render.html:22
+#, python-format
+msgid "%(n)s second"
+msgid_plural "%(n)s seconds"
+msgstr[0] "%(n)s Sekunde"
+msgstr[1] "%(n)s Sekunden"
+
+#: testmoz/templates/students/render.html:23
+#, python-format
+msgid "%(n)s minute"
+msgid_plural "%(n)s minutes"
+msgstr[0] "%(n)s Minute"
+msgstr[1] "%(n)s Minuten"
+
+#: testmoz/templates/students/render.html:24
+#, python-format
+msgid "%(n)s hour"
+msgid_plural "%(n)s hours"
+msgstr[0] "%(n)s Stunde"
+msgstr[1] "%(n)s Stunden"
+
+#: testmoz/templates/students/render.html:30
+msgid "Time remaining:"
+msgstr "Verbleibende Zeit:"
+
+#: testmoz/templates/students/render.html:31
+msgid "Click to hide"
+msgstr "Ausblenden"
+
+#: testmoz/templates/students/render.html:34
+msgid "Click to see time"
+msgstr "Zeit anzeigen"
+
+#: testmoz/templates/students/render.html:45
+msgid "You must answer every question. Incomplete tests will not be accepted."
+msgstr "Sie müssen jede Frage beantworten. Unvollständige Tests werden nicht akzeptiert."
+
+#: testmoz/templates/students/render.html:54
+msgid "This question is required!"
+msgstr "Diese Frage muss beantwortet werden!"
+
+#. Translators: A command or prompt asking the user to enter their answer to a question.
+#: testmoz/templates/students/render.html:83
+msgid "Answer:"
+msgstr "Antwort:"
+
+#. Translators: A command/prompt to submit a form on a webpage
+#: testmoz/templates/students/render.html:98
+msgid "Submit"
+msgstr "Absenden"
+
+#. Translators: As in, your score on a test
+#: testmoz/templates/students/scoresheet.html:22
+msgid "Your score:"
+msgstr "Ihre Punktzahl:"
+
+#. Translators: "Points pending" like points scored on a quiz that haven't been graded yet
+#: testmoz/templates/students/scoresheet.html:26
+#, python-format
+msgid "%(pending_points)s possible point pending"
+msgid_plural "%(pending_points)s possible points pending"
+msgstr[0] "%(pending_points)s möglicher Punkt ist noch nicht verfügbar"
+msgstr[1] "%(pending_points)s mögliche Punkte sind noch nicht verfügbar"
+
+#: testmoz/templates/students/scoresheet.html:30
+msgid "Duration:"
+msgstr "Dauer:"
+
+#. Translators: Your answer to a question
+#: testmoz/templates/students/scoresheet.html:68
+msgid "Your Answer:"
+msgstr "Ihre Antwort:"
+
+#. Translators: Correct, as in "your answer was correct"
+#: testmoz/templates/students/scoresheet.html:78
+msgid "Correct"
+msgstr "Richtig"
+
+#: testmoz/templates/students/scoresheet.html:80
+msgid "Awaiting score"
+msgstr "Die Punktzahl ist noch nicht verfügbar"
+
+#: testmoz/templates/students/scoresheet.html:82
+msgid "Incorrect"
+msgstr "Falsch"
+
+#. Translators: Blank, as-in in the question was not answered on a test
+#: testmoz/templates/students/scoresheet.html:89
+msgid "Blank"
+msgstr "Leer"
+
+#. Translators: "A command/prompt showing the user the correct answer to a question
+#: testmoz/templates/students/scoresheet.html:105
+msgid "Correct Answer:"
+msgstr "Richtige Antwort:"
+
+#: testmoz/templates/students/scoresheet.html:138
+msgid "Logout"
+msgstr "Ausloggen"

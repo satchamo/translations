@@ -1,0 +1,272 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-26 17:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: testmoz/quizzes/models.py:66
+msgid "Enter your name"
+msgstr "अपना नाम दर्ज करें"
+
+#: testmoz/settings.py:128
+msgid "German"
+msgstr "जर्मन"
+
+#: testmoz/settings.py:129
+msgid "English"
+msgstr "अंग्रेजी"
+
+#: testmoz/settings.py:130
+msgid "Spanish"
+msgstr "स्पेनिश"
+
+#: testmoz/settings.py:131
+msgid "Portuguese"
+msgstr "पुर्तगाली"
+
+#: testmoz/settings.py:132
+msgid "Hindi"
+msgstr "हिंदी"
+
+#: testmoz/students/forms.py:22 testmoz/students/forms.py:34
+msgid "This field is required."
+msgstr "यह क्षेत्र आवश्यक है।"
+
+#: testmoz/students/forms.py:40
+msgid "Invalid passcode."
+msgstr "अवैध पासकोड।"
+
+#: testmoz/students/forms.py:81
+#, python-format
+msgid "%(value)s is not an acceptable identifier."
+msgstr "%(value)s मान्य पहचानकर्ता नहीं है।"
+
+#: testmoz/students/forms.py:86
+#, python-format
+msgid "%(value)s is not an acceptable email address."
+msgstr "%(value)s मान्य ईमेल पता नहीं है।"
+
+#: testmoz/students/forms.py:91
+#, python-format
+msgid "%(value)s is not an acceptable email address or identifier."
+msgstr "%(value)s मान्य ईमेल पता या पहचानकर्ता नहीं है।"
+
+#: testmoz/students/forms.py:107
+msgid "You cannot take this test again."
+msgstr "आप यह टेस्ट दोबारा नहीं दे सकते।"
+
+#: testmoz/students/forms.py:148
+#, python-format
+msgid "Start the Test: %(test_name)s"
+msgstr "%(test_name)s: टेस्ट प्रारंभ करें"
+
+#. Translators: Heading on a form to allow students to login
+#: testmoz/templates/login.html:48
+msgid "Student Login"
+msgstr "छात्र लॉग इन"
+
+#. Translators: Heading on a link to the administrative control panel
+#: testmoz/templates/login.html:51 testmoz/templates/login.html.py:54
+#: testmoz/templates/login.html:57
+msgid "Administration"
+msgstr "प्रशासन"
+
+#: testmoz/templates/login.html:64
+msgid "You are now logged out"
+msgstr "आप अब लॉग आउट हो चुके है"
+
+#: testmoz/templates/login.html:76
+msgid "Admin Password"
+msgstr "एडमिन पासवर्ड"
+
+#: testmoz/templates/login.html:80 testmoz/templates/login.html.py:89
+msgid "Login"
+msgstr "लॉग इन"
+
+#: testmoz/templates/login.html:131
+msgid "Passcode"
+msgstr "पासकोड"
+
+#. Translators: Start, as in start a test
+#: testmoz/templates/login.html:136
+msgid "Start"
+msgstr "प्रारंभ करें"
+
+#: testmoz/templates/login.html:144
+msgid "Check your email!"
+msgstr "अपना ईमेल देखें!"
+
+#: testmoz/templates/login.html:145
+msgid "We sent you a link to access the test."
+msgstr "हमने टेस्ट देने के लिए एक लिंक भेजा है। "
+
+#: testmoz/templates/login.html:146
+msgid "Didn't get it? Check your spam folder."
+msgstr "नहीं मिला? अपने स्पैम फोल्डर में देखें।"
+
+#: testmoz/templates/login.html:150
+msgid "The link you clicked is invalid"
+msgstr "आपने जिस लिंक पर क्लिक की है वह अवैध है"
+
+#: testmoz/templates/login.html:151
+msgid "Try copying and pasting it into the address bar instead."
+msgstr "इसे कॉपी कर लें और पता बार में डाल कर देखें। "
+
+#: testmoz/templates/login.html:160
+msgid "You already finished the test!"
+msgstr "आपने पहले ही टेस्ट दे दिया है!"
+
+#: testmoz/templates/login.html:161
+#, python-format
+msgid "You can <a href=\"%(the_url)s\">retake it</a>, if allowed."
+msgstr "अनुमति होने पर,आप इसे <a href=\"%(the_url)s\">दोबारा</a> दे सकते हैं।"
+
+#: testmoz/templates/login.html:169
+msgid "You are no longer allowed to take this test."
+msgstr "इस टेस्ट को देने की अब आपको अनुमति नहीं है।"
+
+#: testmoz/templates/login.html:173
+msgid "Your email address is no longer authorized to take this test."
+msgstr "आपके ईमेल पते से इस टेस्ट को देने की अब अनुमति नहीं है।"
+
+#: testmoz/templates/login.html:180
+msgid "Click here to start"
+msgstr "प्रारंभ करने हेतु यहां क्लिक करें"
+
+#: testmoz/templates/students/login.txt:2
+msgid "Click the following URL to start the test:"
+msgstr "टेस्ट प्रारंभ करने के लिए दिए गए URL पर क्लिक करें:"
+
+#. Translators: Command to print a webpage
+#: testmoz/templates/students/print.html:58
+msgid "Print"
+msgstr "प्रिंट करें"
+
+#. Translators: Points like points scored on a quiz
+#: testmoz/templates/students/print.html:74
+#: testmoz/templates/students/render.html:64
+#: testmoz/templates/students/scoresheet.html:60
+#, python-format
+msgid "%(points)s point"
+msgid_plural "%(points)s points"
+msgstr[0] "%(points)s अंक"
+msgstr[1] "%(points)s अंक"
+
+#: testmoz/templates/students/print.html:128
+#: testmoz/templates/students/scoresheet.html:114
+msgid "Explanation:"
+msgstr "व्याख्या:"
+
+#: testmoz/templates/students/render.html:22
+#, python-format
+msgid "%(n)s second"
+msgid_plural "%(n)s seconds"
+msgstr[0] "%(n)s सेकंड"
+msgstr[1] "%(n)s सेकंड"
+
+#: testmoz/templates/students/render.html:23
+#, python-format
+msgid "%(n)s minute"
+msgid_plural "%(n)s minutes"
+msgstr[0] "%(n)s मिनट"
+msgstr[1] "%(n)s मिनट"
+
+#: testmoz/templates/students/render.html:24
+#, python-format
+msgid "%(n)s hour"
+msgid_plural "%(n)s hours"
+msgstr[0] "%(n)s घंटा"
+msgstr[1] "%(n)s घंटे"
+
+#: testmoz/templates/students/render.html:30
+msgid "Time remaining:"
+msgstr "समय शेष:"
+
+#: testmoz/templates/students/render.html:31
+msgid "Click to hide"
+msgstr "छुपाने के लिए क्लिक करें"
+
+#: testmoz/templates/students/render.html:34
+msgid "Click to see time"
+msgstr "समय देखने हेतु क्लिक करें"
+
+#: testmoz/templates/students/render.html:45
+msgid "You must answer every question. Incomplete tests will not be accepted."
+msgstr "आपको सभी प्रश्न के उत्तर देने अनिवार्य हैं। अधूरे टेस्ट को वैध नहीं माना जाएगा।"
+
+#: testmoz/templates/students/render.html:54
+msgid "This question is required!"
+msgstr "यह प्रश्न अनिवार्य है।"
+
+#. Translators: A command or prompt asking the user to enter their answer to a question.
+#: testmoz/templates/students/render.html:83
+msgid "Answer:"
+msgstr "उत्तर:"
+
+#. Translators: A command/prompt to submit a form on a webpage
+#: testmoz/templates/students/render.html:98
+msgid "Submit"
+msgstr "जमा करें"
+
+#. Translators: As in, your score on a test
+#: testmoz/templates/students/scoresheet.html:22
+msgid "Your score:"
+msgstr "आपका अंक:"
+
+#. Translators: "Points pending" like points scored on a quiz that haven't been graded yet
+#: testmoz/templates/students/scoresheet.html:26
+#, python-format
+msgid "%(pending_points)s possible point pending"
+msgid_plural "%(pending_points)s possible points pending"
+msgstr[0] "%(pending_points)s संभावित अंक स्थगित है"
+msgstr[1] "%(pending_points)s संभावित अंक स्थगित हैं"
+
+#: testmoz/templates/students/scoresheet.html:30
+msgid "Duration:"
+msgstr "समय:"
+
+#. Translators: Your answer to a question
+#: testmoz/templates/students/scoresheet.html:68
+msgid "Your Answer:"
+msgstr "आपके उत्तर:"
+
+#. Translators: Correct, as in "your answer was correct"
+#: testmoz/templates/students/scoresheet.html:78
+msgid "Correct"
+msgstr "सही"
+
+#: testmoz/templates/students/scoresheet.html:80
+msgid "Awaiting score"
+msgstr "प्रतीक्षित अंक"
+
+#: testmoz/templates/students/scoresheet.html:82
+msgid "Incorrect"
+msgstr "गलत"
+
+#. Translators: Blank, as-in in the question was not answered on a test
+#: testmoz/templates/students/scoresheet.html:89
+msgid "Blank"
+msgstr "खाली"
+
+#. Translators: "A command/prompt showing the user the correct answer to a question
+#: testmoz/templates/students/scoresheet.html:105
+msgid "Correct Answer:"
+msgstr "सही उत्तर:"
+
+#: testmoz/templates/students/scoresheet.html:138
+msgid "Logout"
+msgstr "लॉग आउट"
